@@ -1,0 +1,41 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff;
+}
+
+.logo {
+    font-family: "Courier New";
+    font-size: 2vw;
+}
+
+.border-img {
+    border: calc(5px + 0.5vw) solid hsl(0, 0%, 100%);
+    filter: drop-shadow(3px 2px 3px hsl(0, 7%, 87%));
+}
+.profile-img {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+.font-bold {
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* .content {
+    height: 85vh;
+} */
+.text-responsive {
+    font-size: 1.2vw;
+}
+
+@media screen and (max-width:540px) {
+    .text-responsive {
+        font-size: 2vw;
+    }
+
+    .font-sm-size {
+        font-size: 0.8rem;
+    }
+}
